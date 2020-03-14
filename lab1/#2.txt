@@ -1,0 +1,16 @@
+a. http://localhost/lw1/mysql_is_a_database_server.html
+  HTTP код ответа: 404 
+  означает: ресурс не найден, код ошибки, чтобы исправить ситуацию разместить запрашиваемый файл на сервере
+  
+b. http://localhost/lw1/nginx_is_fast_http_server.txt
+  HTTP код ответа: 200
+  означает: запрос выполнен успешно, код описывает специальное поведение веб сервера
+
+c. http://localhost/lw1/php_is_a_server_scripting_language.php
+  HTTP код ответа: 302
+  означает: запрошенный ресурс был временно перемещен, код описывает специальное поведение веб сервера
+
+d. http://localhost/lw1/javascript_is_a_client_side_language.php?how_to_work=hardly
+  HTTP код ответа: 400 Work hard!
+  означает: плохой запрос от клиента, код ошибки, чтобы исправить ситуацию в параметр how_to_work передать hard, 
+  потому что в данном случае, если параметр how_to_work равен не hard, код статус равен 400

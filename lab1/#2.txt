@@ -8,7 +8,9 @@ b. http://localhost/lw1/nginx_is_fast_http_server.txt
 
 c. http://localhost/lw1/php_is_a_server_scripting_language.php
   HTTP код ответа: 302
-  означает: запрошенный ресурс был временно перемещен, код описывает специальное поведение веб сервера
+  означает: ресурс отстутствует временно, код описывает специальное поведение веб сервера. Запрошенный ресурс 
+  был временно перемещен по адресу, указанному в заголовке Location. В данном случае происходить временный редирект
+  на http://fi2.php.net/manual/ru/, потому что этот url указан в файле в поле Location. 
 
 d. http://localhost/lw1/javascript_is_a_client_side_language.php?how_to_work=hardly
   HTTP код ответа: 400 Work hard!

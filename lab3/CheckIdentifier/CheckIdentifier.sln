@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckIdentifier", "CheckIdentifier\CheckIdentifier.csproj", "{E17A77CB-A416-45E1-93D7-4C809859F831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckIdentifierTests", "CheckIdentifierTests\CheckIdentifierTests.csproj", "{5171A6CB-5460-464A-B65D-CC74DCA22F89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E17A77CB-A416-45E1-93D7-4C809859F831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17A77CB-A416-45E1-93D7-4C809859F831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17A77CB-A416-45E1-93D7-4C809859F831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17A77CB-A416-45E1-93D7-4C809859F831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5171A6CB-5460-464A-B65D-CC74DCA22F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5171A6CB-5460-464A-B65D-CC74DCA22F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5171A6CB-5460-464A-B65D-CC74DCA22F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5171A6CB-5460-464A-B65D-CC74DCA22F89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EBEDB02-6695-4099-9327-3F12470A1006}
+	EndGlobalSection
+EndGlobal

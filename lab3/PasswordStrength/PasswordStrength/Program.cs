@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace PasswordStrength
 {
-    class Program
+    public class Program
     {
 
         public static int PasswordStrengthByNumberOfCharacters(string password)
@@ -85,6 +85,18 @@ namespace PasswordStrength
             return passwordStrenght;
         }
 
+        public static bool IsCorrectPassword(string password)
+        {
+            foreach (char character in password)
+            {
+                if (!char.IsUpper(character) && !char.IsLower(character) && !char.IsDigit(character))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
         public static bool CheckArgs(string[] args)
         {
             if (args.Length != 1)
@@ -102,7 +114,13 @@ namespace PasswordStrength
                 return 1;
             }
 
-            int passwordStrenght = PasswordStrength(args[0]);
+            string password = args[0];
+            if (!IsCorrectPassword(password))
+            {
+                return 1;
+            }
+
+            int passwordStrenght = PasswordStrength(password);
             Console.WriteLine(passwordStrenght);
             return 0;
         }

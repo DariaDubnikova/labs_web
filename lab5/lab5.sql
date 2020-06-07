@@ -26,7 +26,7 @@ VALUES
 	('Гладиатор', 2001),
 	('Отступники', 2006), 
 	('Начало', 2010),
-    ('Ловушка', 2010), 
+        ('Ловушка', 2010), 
 	('Рапунцель', 2010);
 
 INSERT INTO customer (first_name, last_name, passport_code, registration_date) 
@@ -40,7 +40,7 @@ VALUES
 	(1, 2, '2018-02-05', '2020-02-19'), 
 	(2, 3, '2020-01-13', '2020-01-27'), 
 	(3, 3, '2019-04-01', '2020-04-15'),
-    (4, 2, '2020-03-15', '2020-03-30');
+        (4, 2, '2020-03-15', '2020-03-30');
 
 INSERT INTO offer (dvd_id, customer_id, offer_date) 
 VALUES 
@@ -66,10 +66,10 @@ WHERE offer.return_date IS NULL;
 --   диски в текущем году. В результатах запроса необходимо также отразить какие диски 
 --   брали клиенты.
 SELECT 
-    customer.customer_id,  
+        customer.customer_id,  
 	customer.first_name, 
 	customer.last_name,
-    dvd.dvd_id,  
+        dvd.dvd_id,  
 	dvd.title,
 	dvd.production_year
 FROM customer
